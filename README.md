@@ -2,6 +2,8 @@
 
 > "Gak perlu sempurna, yang penting gaskeun aja dulu!"
 
+![Status: Beta](https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge)
+
 Gaskeun adalah aplikasi mobile habit tracker minimalis yang terinspirasi dari prinsip Atomic Habits oleh James Clear. Aplikasi ini dirancang untuk membantumu fokus pada satu perubahan kecil setiap harinya melalui sistem perjalanan level yang sederhana namun disiplin.
 
 ---
