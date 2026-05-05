@@ -2,7 +2,7 @@
 
 > **"Gak perlu sempurna, yang penting gaskeun aja dulu!"** 🔥
 
-Gaskeun adalah aplikasi mobile *habit tracker* yang dirancang dengan pendekatan gamifikasi unik. Berbeda dengan aplikasi habit biasa, Gaskeun mengajak kamu berpetualang melalui peta dunia 3D, di mana setiap level adalah tantangan nyata untuk memperbaiki kualitas hidupmu.
+Gaskeun adalah aplikasi mobile *habit tracker* minimalis yang terinspirasi dari prinsip **Atomic Habits** oleh James Clear. Aplikasi ini dirancang untuk membantumu fokus pada satu perubahan kecil setiap harinya melalui sistem perjalanan level yang sederhana namun disiplin.
 
 ![Gaskeun Banner](https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge)
 ![React Native](https://img.shields.io/badge/React_Native-Expo-blue?style=for-the-badge&logo=react)
@@ -12,8 +12,8 @@ Gaskeun adalah aplikasi mobile *habit tracker* yang dirancang dengan pendekatan 
 
 ## ✨ Fitur Unggulan
 
-### 🗺️ 3D Isometric Journey Map
-Visualisasi progres dalam bentuk tangga 3D (Isometric Staircase) dengan tema pastel yang menyejukkan mata. Setiap langkah di peta mewakili level yang telah kamu taklukkan.
+### 🗺️ Visual Journey Map
+Visualisasi progres dalam bentuk jalur tangga (Staircase) yang minimalis dengan tema pastel. Jalur ini membantumu melihat sejauh mana kamu sudah melangkah dari level dasar hingga menjadi master.
 
 ### 📅 Weekly Mastery System (1 Level = 7 Hari)
 Membangun habit bukan soal satu malam. Di Gaskeun, kamu harus menyelesaikan tantangan yang sama selama **7 hari berturut-turut** sebelum bisa naik ke level berikutnya. Konsistensi adalah kunci!
