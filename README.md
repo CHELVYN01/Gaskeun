@@ -1,50 +1,83 @@
-# Welcome to your Expo app 👋
+# 🚀 Gaskeun — Habit Journey Tracker
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> **"Gak perlu sempurna, yang penting gaskeun aja dulu!"** 🔥
 
-## Get started
+Gaskeun adalah aplikasi mobile *habit tracker* yang dirancang dengan pendekatan gamifikasi unik. Berbeda dengan aplikasi habit biasa, Gaskeun mengajak kamu berpetualang melalui peta dunia 3D, di mana setiap level adalah tantangan nyata untuk memperbaiki kualitas hidupmu.
 
-1. Install dependencies
+![Gaskeun Banner](https://img.shields.io/badge/Status-Beta-orange?style=for-the-badge)
+![React Native](https://img.shields.io/badge/React_Native-Expo-blue?style=for-the-badge&logo=react)
+![SQLite](https://img.shields.io/badge/Database-SQLite-green?style=for-the-badge&logo=sqlite)
 
+---
+
+## ✨ Fitur Unggulan
+
+### 🗺️ 3D Isometric Journey Map
+Visualisasi progres dalam bentuk tangga 3D (Isometric Staircase) dengan tema pastel yang menyejukkan mata. Setiap langkah di peta mewakili level yang telah kamu taklukkan.
+
+### 📅 Weekly Mastery System (1 Level = 7 Hari)
+Membangun habit bukan soal satu malam. Di Gaskeun, kamu harus menyelesaikan tantangan yang sama selama **7 hari berturut-turut** sebelum bisa naik ke level berikutnya. Konsistensi adalah kunci!
+
+### 🔒 Anti-Cheating Daily Cooldown
+Tombol "Gaskeun!" memiliki fitur hitung mundur (*cooldown*). Kamu hanya bisa menandai satu hari selesai per hari. Jika sudah, tombol akan terkunci dan menampilkan hitung mundur hingga tengah malam.
+
+### 💬 Daily Motivational Quotes
+Setiap hari di setiap level, kamu akan mendapatkan kalimat semangat yang berbeda untuk menemani perjuanganmu membangun kebiasaan baru.
+
+### ⚙️ Premium Settings & Onboarding
+- **Onboarding Interaktif**: Alur perkenalan yang personal untuk mengambil nama dan waktu pengingat.
+- **Custom Time Picker**: Pengatur waktu notifikasi dengan UI panah yang interaktif.
+- **Privacy First**: Semua data disimpan secara lokal di perangkatmu menggunakan SQLite. Tidak ada cloud, tidak ada tracking.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React Native](https://reactnative.dev/) with [Expo SDK](https://expo.dev/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict Mode)
+- **Database**: [expo-sqlite](https://docs.expo.dev/versions/latest/sdk/sqlite/) (Offline-first)
+- **Navigation**: [React Navigation v6](https://reactnavigation.org/)
+- **Styling**: Vanilla StyleSheet with Premium Pastel Palette
+
+---
+
+## 🚀 Cara Menjalankan Project
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/CHELVYN01/Gaskeun.git
+   cd Gaskeun
+   ```
+
+2. **Install Dependencies**
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. **Jalankan Aplikasi**
    ```bash
    npx expo start
    ```
+   *Gunakan aplikasi **Expo Go** di Android/iOS untuk scan QR Code.*
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+## 📂 Struktur Folder
+```text
+src/
+├── components/     # UI Components Reusable
+├── screens/        # Halaman Utama (Home, Level, Onboarding, dll)
+├── database/       # SQLite Logic (db.ts, schema.ts, queries.ts)
+├── data/           # Konten Statis (Levels, Challenges, Quotes)
+├── theme/          # Color Palette & Design Tokens
+└── navigation/     # App Navigation Configuration
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 📜 Filosofi Gaskeun
+Aplikasi ini dibangun untuk mereka yang seringkali takut memulai karena mengejar kesempurnaan. Gaskeun percaya bahwa **progres kecil yang konsisten jauh lebih baik daripada rencana besar yang tidak pernah dijalankan.**
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+*Made with 🔥 by Gaskeun Team*
